@@ -1,0 +1,13 @@
+.gallery {
+  padding: 120px 0 120px 0;
+  .wrapper {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2, 644px);
+    grid-template-rows: repeat(2, 300px);
+  }
+  &__big-img {
+    grid-column: 2/4;
+    grid-row: 1/3;
+  }
+}

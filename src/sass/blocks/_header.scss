@@ -1,0 +1,39 @@
+.header {
+  background-color: $base-color;
+  &__section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 0 44px 0;
+  }
+  &__menu {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    a {
+      font-size: 15px;
+      line-height: 24px;
+      text-decoration: none;
+      color: $main-color;
+      margin-right: 20px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  &__logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__social {
+    display: flex;
+    justify-content: space-between;
+    width: 104px;
+    img {
+      max-width: 24px;
+      max-height: 24px;
+    }
+  }
+}

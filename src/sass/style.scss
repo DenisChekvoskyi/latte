@@ -1,0 +1,26 @@
+@import "libs/bootstrap-reboot.min";
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;700&display=swap");
+@import "base/variables";
+
+* {
+  font-family: "Inter", sans-serif;
+  //font-family: 'Azeret Mono', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1328px;
+  margin: 0 auto;
+}
+
+@import "blocks/titles";
+@import "blocks/header";
+@import "blocks/hero";
+@import "blocks/about";
+@import "blocks/menu";
+@import "blocks/schedule";
+@import "blocks/gallery";
+@import "blocks/progress";
+@import "blocks/footer";

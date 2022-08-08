@@ -1,0 +1,21 @@
+.progress {
+  padding: 120px 0 120px 0;
+  background-color: $base-color;
+  &__title {
+    font-size: 47px;
+    line-height: 62px;
+    letter-spacing: 1px;
+    color: $main-color;
+    width: 415px;
+  }
+  &__description {
+    font-size: 18px;
+    line-height: 27px;
+    color: $main-color;
+    width: 595px;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}

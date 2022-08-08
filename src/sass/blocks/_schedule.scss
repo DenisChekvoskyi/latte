@@ -1,0 +1,20 @@
+.schedule {
+  padding: 120px 0 120px 0;
+  background-color: #aa9e54;
+  .wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__title {
+    color: #ffffff;
+  }
+  &__description {
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .output {
+    margin-top: 35px;
+  }
+}

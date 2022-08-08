@@ -1,0 +1,12 @@
+.about {
+  max-width: 869px;
+  padding: 220px 0 245px 0;
+  margin: 0 auto;
+  &__description {
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;
+    color: #222222;
+    margin-bottom: 0;
+  }
+}
